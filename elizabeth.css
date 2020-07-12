@@ -1,0 +1,45 @@
+body {
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight: 900;
+}
+
+header {
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header:hover {
+    background-color:rgba(0,0,0,0.2);
+    color: gray;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.parallax {
+  background-image: url("images/japan.jpg");
+
+  height: 650px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.titleText {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
