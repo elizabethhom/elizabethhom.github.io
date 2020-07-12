@@ -32,6 +32,10 @@ ul {
   background-size: cover;
 }
 
+.parallax:hover {
+    background-color: rgba(0,0,0,0.2);
+}
+
 .container {
     position: relative;
     text-align: center;
